@@ -13,8 +13,20 @@ main>.container {
   width: 100% ;
 }
 
+.fas{
+  color:var(--primary)
+}
+
+.btn{
+  color:white;
+  background-color:var(--primary)
+}
+
 h1,h2,h3,h4,h5,h6{
-   color:var(--primary)
+  color:var(--primary);
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 .fa-js-square{
@@ -38,6 +50,13 @@ pre[class*="language-"] {
 white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
+}
+
+.fontP{
+  font-family: 'Philosopher', sans-serif;
+}
+p,div,strong,a,li,.nav-link{
+  font-family: 'PT Sans', sans-serif;
 }
  
 
